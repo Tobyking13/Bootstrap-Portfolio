@@ -15,11 +15,12 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Work Sans"
     />
+    <title>Toby King Bootstrap Portfolio</title>
   </head>
   <body>
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
-      <a class="navbar-brand" href="#">Toby King Portfolio</a>
+      <a class="navbar-brand" href="#"></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -33,33 +34,35 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-link" href="#"
-            >About<span class="sr-only">(current)</span></a
-          >
-          <a class="nav-link" href="#">Projects</a>
-          <a class="nav-link" href="#">Contact</a>
-          <a class="nav-link">Resume</a>
+          
+          <a onclick="topFunction()" class="nav-link" href="#work"><button type="button" class="btn btn-outline-light" id="myBtn">Projects</button></a>
+
+          <a class="nav-link" href="./media/Toby-King_CV.pdf"><button type="button" class="btn btn-outline-light">Resume</button></a>
         </div>
       </div>
     </nav>
     <!-- Jumbotron -->
     <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">
+      <h1 class="display-4" id="jumbotron-header">Toby King Portfolio</h1>
+      
+      <!-- <p class="lead">
         This is a simple hero unit, a simple jumbotron-style component for
         calling extra attention to featured content or information.
-      </p>
-      <hr class="my-4" />
-      <p>
+      </p> -->
+      <!-- <p>
         It uses utility classes for typography and spacing to space content out
         within the larger container.
-      </p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p> -->
+      <!-- <a class="btn btn-primary btn-lg ml-auto" href="./media/Toby-King_CV.pdf" role="button">Resume</a> -->
+<!-- <a href="./media/Toby-King_CV.pdf">
+  <button type="button" class="btn btn-outline-light" id="jumbotron-button">Resume</button>
+</a> -->
     </div>
     <!-- Waves -->
     <img id="wave-img" src="./Images/layered-waves-haikei-top.svg" alt="" />
     <!-- Work -->
-    <div class="container-fluid work">
+    <div class="container-fluid work" id="work">
+    <!-- Work Header -->
       <div class="row">
         <div class="col-12 d-flex justify-content-center">
           <h2 class="header">My Work</h2>
@@ -67,6 +70,7 @@
       </div>
       <div class="row d-flex justify-content-center">
         <div class="col-9">
+          <!-- Carousel -->
           <div
             id="carouselExampleIndicators"
             class="carousel slide"
@@ -82,12 +86,13 @@
                 data-target="#carouselExampleIndicators"
                 data-slide-to="1"
               ></li>
-              <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
             </ol>
             <div class="carousel-inner">
+              <!-- First Carousel -->
               <div class="carousel-item active">
                 <div class="row">
                   <div class="col-4">
+                    <!-- Card 1 -->
                     <div class="card mb-2">
                       <img
                         class="card-img-top"
@@ -100,11 +105,12 @@
                           HTML semantics. Refactoring Horiseon webpage for
                           accessability.
                         </p>
-                        <a class="btn btn-primary">Button</a>
+                        <a class="btn btn-outline-light">Button</a>
                       </div>
                     </div>
                   </div>
 
+                  <!-- Card 2 -->
                   <div class="col-4">
                     <div class="card mb-2">
                       <img
@@ -117,11 +123,12 @@
                         <p class="card-text">
                           A basic portfolio design using HTML and CSS
                         </p>
-                        <a class="btn btn-primary">Button</a>
+                        <a class="btn btn-outline-light">Button</a>
                       </div>
                     </div>
                   </div>
 
+                  <!-- Card 3 -->
                   <div class="col-4">
                     <div class="card mb-2">
                       <img
@@ -134,16 +141,19 @@
                         <p class="card-text">
                           Another portfolio design using Bootstrap, HTML & CSS
                         </p>
-                        <a class="btn btn-primary">Button</a>
+                        <a class="btn btn-outline-light">Button</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="carousel-item active">
+              <!-- Carousel 2 -->
+              <div class="carousel-item">
                 <div class="row">
                   <div class="col-4">
+
+                    <!-- Card 1 -->
                     <div class="card mb-2">
                       <img
                         class="card-img-top"
@@ -156,11 +166,12 @@
                           HTML semantics. Refactoring Horiseon webpage for
                           accessability.
                         </p>
-                        <a class="btn btn-primary">Button</a>
+                        <a class="btn btn-outline-light">Button</a>
                       </div>
                     </div>
                   </div>
 
+                  <!-- Card 2 -->
                   <div class="col-4">
                     <div class="card mb-2">
                       <img
@@ -173,11 +184,12 @@
                         <p class="card-text">
                           A basic portfolio design using HTML and CSS
                         </p>
-                        <a class="btn btn-primary">Button</a>
+                        <a class="btn btn-outline-light">Button</a>
                       </div>
                     </div>
                   </div>
 
+                  <!-- Card 3 -->
                   <div class="col-4">
                     <div class="card mb-2">
                       <img
@@ -190,13 +202,15 @@
                         <p class="card-text">
                           Another portfolio design using Bootstrap, HTML & CSS
                         </p>
-                        <a class="btn btn-primary">Button</a>
+                        <a class="btn btn-outline-light">Button</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Carousel Buttons -->
             <button
               class="carousel-control-prev"
               type="button"
@@ -226,15 +240,17 @@
         </div>
       </div>
 
+      <!-- About, Skills, Contact -->
       <div class="row d-flex justify-content-center">
         <div class="col-3 ">
           <div class="row">
+            <!-- About -->
             <div class="col-9 d-flex justify-content-center">
               <h2 class="header">About</h2>
             </div>
           </div>
           <div class="row">
-            <div class="col-9">
+            <div class="col-9 text-center">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
                 deleniti modi, molestiae cupiditate ea eos a, error,
@@ -246,12 +262,13 @@
         </div>
         <div class="col-3">
           <div class="row">
+            <!-- Skills -->
             <div class="col-9 d-flex justify-content-center">
               <h2 class="header">Skills</h2>
             </div>
           </div>
           <div class="row">
-            <div class="col-9">
+            <div class="col-9 text-center">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Perspiciatis ea molestias consequuntur eum maxime nesciunt ipsum
@@ -263,12 +280,13 @@
         </div>
         <div class="col-3">
           <div class="row">
+            <!-- Contact -->
             <div class="col-9 d-flex justify-content-center">
               <h2 class="header">Contact</h2>
             </div>
           </div>
           <div class="row">
-            <div class="col-9">
+            <div class="col-9 text-center">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
                 tempore ea libero optio voluptatem sunt ut eum, voluptate
@@ -279,8 +297,16 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <h2 class="header">FOOTER</h2>
+        </div>
+      </div>
     </div>
 
+    <!-- hidden div -->
     <div id="hidden-div"></div>
+  
+  
   </body>
 </html>
