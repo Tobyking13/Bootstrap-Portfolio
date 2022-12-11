@@ -5,8 +5,14 @@
 }
 
 body {
-    background: #001220 !important;
-    width: 100vw;
+    background: #001220 url(../Images/layered-waves-haikei-bottom.svg)!important;
+    background-size: cover;
+    background-position: center 1160px !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    height: 100vh !important;
+
+    /* width: 100vw; */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -80,7 +86,7 @@ font-family: Work Sans;
     top: 0;
     left: 0;
     right: 0;
-    height: 3000px;
+    height: 250%;
 }
 
 .header {
