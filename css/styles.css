@@ -1,4 +1,65 @@
-h1 {
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+
+
+body {
+    background: #001220 !important;
+    width: 100vw;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+color: blanchedalmond;
+font-family: Work Sans;
+}
+
+#wave-img {
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+}
+
+.jumbotron {
+    margin-bottom: 0px !important;
+    background: linear-gradient(#e3064f, #300919);
+    height: 50vh;
+}
+
+.navbar-custom {
+    background-color: #e3064f !important;
+}
+
+#toby-img {
+    width: 200px;
+    height: auto;
+    
+   
+}
+
+.col {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#about-me {
+    position: fixed;
+    top: 50px;
+    z-index: -1;
+}
+
+#hidden-div {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 200%;
+}
+
+#about-header {
+    border-bottom: 2px solid whitesmoke;
 }
