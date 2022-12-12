@@ -15,6 +15,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Work Sans"
     />
+    <script
+      src="https://kit.fontawesome.com/e4f141c5c9.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Toby King Bootstrap Portfolio</title>
   </head>
   <body>
@@ -33,188 +37,163 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <h1 class="display-4" id="header-outline">Toby King Portfolio</h1>
         <div class="navbar-nav ml-auto">
-          
-          <a onclick="topFunction()" class="nav-link" href="#work"><button type="button" class="btn btn-outline-light" id="myBtn">Projects</button></a>
-
-          <a class="nav-link" href="./media/Toby-King_CV.pdf"><button type="button" class="btn btn-outline-light">Resume</button></a>
+          <a class="nav-link" href="./media/Toby-King_CV.pdf"
+            ><button type="button" class="btn btn-outline-light">
+              Resume <i class="fa-light fa-file-lines"></i></button
+          ></a>
         </div>
       </div>
     </nav>
     <!-- Jumbotron -->
-    <div class="jumbotron">
-      <h1 class="display-4" id="jumbotron-header">Toby King Portfolio</h1>
-      
-      <!-- <p class="lead">
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information.
-      </p> -->
-      <!-- <p>
-        It uses utility classes for typography and spacing to space content out
-        within the larger container.
-      </p> -->
-      <!-- <a class="btn btn-primary btn-lg ml-auto" href="./media/Toby-King_CV.pdf" role="button">Resume</a> -->
-<!-- <a href="./media/Toby-King_CV.pdf">
-  <button type="button" class="btn btn-outline-light" id="jumbotron-button">Resume</button>
-</a> -->
-    </div>
+    <div class="jumbotron"></div>
     <!-- Waves -->
-    <img id="wave-img" src="./Images/layered-waves-haikei-top.svg" alt="" />
+    <img id="wave-img" src="./Images/layered-waves-haikei-2.svg" alt="" />
     <!-- Work -->
-    <div class="container-fluid work" id="work">
-    <!-- Work Header -->
-      <div class="row">
-        <div class="col-12 d-flex justify-content-center">
-          <h2 class="header">My Work</h2>
+    <div class="container-fluid">
+      <!-- Work Header -->
+      <div class="row d-flex justify-content-center">
+        <div class="col-9 d-flex justify-content-center">
+          <h2 class="" id="header-outline">My Work</h2>
         </div>
       </div>
       <div class="row d-flex justify-content-center">
         <div class="col-9">
-          <!-- Carousel -->
           <div
-            id="carouselExampleIndicators"
+            id="carouselExampleControls"
             class="carousel slide"
             data-ride="carousel"
           >
-            <ol class="carousel-indicators">
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="0"
-                class="active"
-              ></li>
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="1"
-              ></li>
-            </ol>
             <div class="carousel-inner">
-              <!-- First Carousel -->
               <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-4">
-                    <!-- Card 1 -->
-                    <div class="card mb-2">
-                      <img
-                        class="card-img-top"
-                        src="./Images/screenshot-webpage.png"
-                        alt="Card image cap"
-                      />
-                      <div class="card-body">
-                        <h4 class="card-title">Horiseon</h4>
-                        <p class="card-text">
-                          HTML semantics. Refactoring Horiseon webpage for
-                          accessability.
-                        </p>
-                        <a class="btn btn-outline-light">Button</a>
-                      </div>
+                <div class="cards-wrapper">
+                  <div class="card">
+                    <img
+                      src="./images/screenshot-webpage.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                   </div>
-
-                  <!-- Card 2 -->
-                  <div class="col-4">
-                    <div class="card mb-2">
-                      <img
-                        class="card-img-top"
-                        src="./Images/Portfolio-Screenshot.png"
-                        alt="Card image cap"
-                      />
-                      <div class="card-body">
-                        <h4 class="card-title">Portfolio</h4>
-                        <p class="card-text">
-                          A basic portfolio design using HTML and CSS
-                        </p>
-                        <a class="btn btn-outline-light">Button</a>
-                      </div>
+                  <div class="card d-none d-md-block">
+                    <img
+                      src="./images/Portfolio-Screenshot.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                   </div>
-
-                  <!-- Card 3 -->
-                  <div class="col-4">
-                    <div class="card mb-2">
-                      <img
-                        class="card-img-top"
-                        src="./Images/bootstrap-icons.png"
-                        alt="Card image cap"
-                      />
-                      <div class="card-body">
-                        <h4 class="card-title">Bootstrap Portfolio</h4>
-                        <p class="card-text">
-                          Another portfolio design using Bootstrap, HTML & CSS
-                        </p>
-                        <a class="btn btn-outline-light">Button</a>
-                      </div>
+                  <div class="card d-none d-md-block">
+                    <img
+                      src="./images/bootstrap-icons.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <!-- Carousel 2 -->
               <div class="carousel-item">
-                <div class="row">
-                  <div class="col-4">
-
-                    <!-- Card 1 -->
-                    <div class="card mb-2">
-                      <img
-                        class="card-img-top"
-                        src="./Images/screenshot-webpage.png"
-                        alt="Card image cap"
-                      />
-                      <div class="card-body">
-                        <h4 class="card-title">Horiseon</h4>
-                        <p class="card-text">
-                          HTML semantics. Refactoring Horiseon webpage for
-                          accessability.
-                        </p>
-                        <a class="btn btn-outline-light">Button</a>
-                      </div>
+                <div class="cards-wrapper">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                   </div>
-
-                  <!-- Card 2 -->
-                  <div class="col-4">
-                    <div class="card mb-2">
-                      <img
-                        class="card-img-top"
-                        src="./Images/Portfolio-Screenshot.png"
-                        alt="Card image cap"
-                      />
-                      <div class="card-body">
-                        <h4 class="card-title">Portfolio</h4>
-                        <p class="card-text">
-                          A basic portfolio design using HTML and CSS
-                        </p>
-                        <a class="btn btn-outline-light">Button</a>
-                      </div>
+                  <div class="card d-none d-md-block">
+                    <img src="..." class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                   </div>
-
-                  <!-- Card 3 -->
-                  <div class="col-4">
-                    <div class="card mb-2">
-                      <img
-                        class="card-img-top"
-                        src="./Images/bootstrap-icons.png"
-                        alt="Card image cap"
-                      />
-                      <div class="card-body">
-                        <h4 class="card-title">Bootstrap Portfolio</h4>
-                        <p class="card-text">
-                          Another portfolio design using Bootstrap, HTML & CSS
-                        </p>
-                        <a class="btn btn-outline-light">Button</a>
-                      </div>
+                  <div class="card d-none d-md-block">
+                    <img src="..." class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="cards-wrapper">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block">
+                    <img src="..." class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card d-none d-md-block">
+                    <img src="..." class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <!-- Carousel Buttons -->
-            <button
+            <a
               class="carousel-control-prev"
-              type="button"
-              data-target="#carouselExampleIndicators"
+              href="#carouselExampleControls"
+              role="button"
               data-slide="prev"
             >
               <span
@@ -222,12 +201,11 @@
                 aria-hidden="true"
               ></span>
               <span class="sr-only">Previous</span>
-            </button>
-
-            <button
-              class="carousel-control-next btn-dark"
-              type="button"
-              data-target="#carouselExampleIndicators"
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleControls"
+              role="button"
               data-slide="next"
             >
               <span
@@ -235,78 +213,26 @@
                 aria-hidden="true"
               ></span>
               <span class="sr-only">Next</span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
 
-      <!-- About, Skills, Contact -->
-      <div class="row d-flex justify-content-center">
-        <div class="col-3 ">
-          <div class="row">
-            <!-- About -->
-            <div class="col-9 d-flex justify-content-center">
-              <h2 class="header">About</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-9 text-center">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-                deleniti modi, molestiae cupiditate ea eos a, error,
-                consequuntur nulla assumenda consequatur reiciendis earum vero
-                officiis! At facere doloremque ipsam impedit?
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-3">
-          <div class="row">
-            <!-- Skills -->
-            <div class="col-9 d-flex justify-content-center">
-              <h2 class="header">Skills</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-9 text-center">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis ea molestias consequuntur eum maxime nesciunt ipsum
-                necessitatibus perferendis aliquid nam illum voluptates
-                similique est, fugit aut, ipsam dolorem iure corrupti.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-3">
-          <div class="row">
-            <!-- Contact -->
-            <div class="col-9 d-flex justify-content-center">
-              <h2 class="header">Contact</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-9 text-center">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                tempore ea libero optio voluptatem sunt ut eum, voluptate
-                recusandae officia totam, quia sequi dicta quis eos tempora quo,
-                eligendi sapiente.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 d-flex justify-content-center">
-          <h2 class="header">FOOTER</h2>
-        </div>
-      </div>
+      
     </div>
 
-    <!-- hidden div -->
+
+    <a href="https://github.com/Tobyking13"
+    ><i class="footer-icons fab fa-github-square"></i
+  ></a>
+  <a href="https://soundcloud.com/tobyrking"
+    ><i class="footer-icons fab fa-soundcloud"></i
+  ></a>
+  <a href="https://www.instagram.com/tobiasrking/">
+    <i class="footer-icons fab fa-instagram"></i></a>
+    
+  
+  <!-- hidden div -->
     <div id="hidden-div"></div>
-  
-  
   </body>
 </html>
