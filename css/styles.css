@@ -39,6 +39,9 @@ font-family: Work Sans;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #jumbotron-button {
@@ -126,14 +129,33 @@ font-family: Work Sans;
     box-shadow: 4px 4px 10px #a6166d;
  }
 
- .dots {
-    color: blanchedalmond;
-    font-size: 20px;
- }
-
  .carousel-inner {
     /* padding: 0 30px !important; */
     width: 80% !important;
     margin-left: auto !important;
     margin-right: auto !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: none !important;
+  width: 5vh !important;
+  height: 5vh !important;
+  border: solid 2px blanchedalmond !important;
+  border-radius: 50% !important;
+  top: 50% !important;
+  transition-property: all !important;
+  transition-duration: 0.5s !important;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    color: #001220 !important;
+    box-shadow: 4px 4px 10px #a6166d;
+}
+
+@media screen and (max-width: 400px) {
+    .contact-info {
+        font-size: 5x;
+    };
 }
