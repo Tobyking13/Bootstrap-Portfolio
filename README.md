@@ -30,7 +30,7 @@ https://tobyking13.github.io/Toby-King-Challenge-3-Bootstrap-Portfolio/
 
 ## Usage
 
-![Toby King Portfolio](Images/bootstrap-portfolio.jpg "Toby King Portfolio" )
+![Toby King Portfolio](Images/bootstrap-portfolio.png "Toby King Portfolio" )
 Screenshot of the webpage live on Github pages.
 
 ## Credits
