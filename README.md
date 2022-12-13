@@ -2,7 +2,7 @@
 
 ## Description
 
-This week I was tasked to create another portfolio. This time using Bootstrap. The aim was to make use of bootstrap components but to customise them so they don't look like regular Bootstrap components. The aim of this is to showcase all of my work and projects from this Bootcamp as well as any other projects I do outside of the course. 
+This week I was tasked to create another portfolio. This time using Bootstrap. The aim was to make use of bootstrap components but to customise them so they don't look like regular Bootstrap components. The intension of this webpage is to showcase all of my work and projects from this Bootcamp as well as any other projects I do outside of the course. 
 
 I got my inspiration from a recent trip to Peru where I visited the Ica desert. I used a website called Haikei to create the coloured waves and produce a .svg file. I then used a Bootstrap Nav Bar and Jumbotron to make my website header. I found a lovely image of Koi fish that I used as my header background and layered a gradient on top so it smoothly transitioned into the waves.sgv file. 
 
@@ -11,6 +11,8 @@ The next stage was to create my portfolio showcase. To do this I embedded Bootst
 Following this, I created an about me, skills & contact section followed by a footer. I found some lovely type fonts on fontawesome.com which made customising easy with CSS. 
 
 All of the main section of the webpage was organised using the Bootstrap grid system, this allowed me to easily set up breakpoints so the page is responsive and works on devices with smaller screens.
+
+Lastly I customised the bootstrap buttons so they had rounded edges and displayed a shadow when hovered over. I also added a transition delay to not make it feel so clunky for the user.
 
 I enjoyed this assignment, it's the first time I have been able to be creative with web design in the course. There were some challenges as sometimes I noticed Bootstrap to be quite belligerent. the !important CSS command was very useful here. 
 
