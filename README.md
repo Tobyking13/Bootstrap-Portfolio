@@ -2,7 +2,7 @@
 
 ## Description
 
-This week I was tasked to create another portfolio. This time using Bootstrap. The aim was to make use of bootstrap components but to customise them so they don't look like regular Bootstrap components. The intension of this webpage is to showcase all of my work and projects from this Bootcamp as well as any other projects I do outside of the course. 
+I have created a portfolio page using Bootstrap. The aim was to make use of bootstrap components but to customise them so they don't look like regular Bootstrap components. The intension of this webpage is to showcase all of my work and projects from this Bootcamp as well as any other projects I do outside of the course. 
 
 I got my inspiration from a recent trip to Peru where I visited the Ica desert. I used a website called Haikei to create the coloured waves and produce a .svg file. I then used a Bootstrap Nav Bar and Jumbotron to make my website header. I found a lovely image of Koi fish that I used as my header background and layered a gradient on top so it smoothly transitioned into the waves.sgv file. 
 
